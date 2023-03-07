@@ -95,9 +95,76 @@
           <div class="modal">
             <button type="button" data-modal-close class="modal-button">
               <svg class="modal-icon">
-                <use href="./images/icon.svg#icon-Vector"></use>
+                <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </button>
+            <!-- POCZĄTEK MODALA -->
+            <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+            <form action="">
+              <ul>
+                <li class="modal-container">
+                  <label class="modal-contacts">Imie</label>
+                  <div class="field-name">
+                    <input
+                      class="modal-type-field"
+                      type="text"
+                      name="username"
+                    />
+                    <svg class="modal-icon-name">
+                      <use href="./images/icons.svg#icon-modal-face"></use>
+                    </svg>
+                  </div>
+                </li>
+                <li class="modal-container">
+                  <label class="modal-contacts">Telefon</label>
+                  <div class="field-tel">
+                    <input
+                      class="modal-type-field"
+                      type="tel"
+                      name="phone-number"
+                    />
+                    <svg class="modal-icon-tel">
+                      <use href="./images/icons.svg#icon-modal-phone"></use>
+                    </svg>
+                  </div>
+                </li>
+                <li class="modal-container">
+                  <label class="modal-contacts">Email</label>
+                  <div class="field-email">
+                    <input class="modal-type-field" type="email" name="email" />
+                    <svg class="modal-icon-email">
+                      <use href="./images/icons.svg#icon-modal-mail"></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+              <div class="modal-container-comment">
+                <label class="modal-comment">Komentarz</label>
+                <textarea
+                  class="modal-text"
+                  name="feedback"
+                  rows=""
+                  placeholder="Wprowadź tekst"
+                ></textarea>
+              </div>
+              <label class="modal-link-accept">
+                <input
+                  class="modal-checkbox"
+                  type="checkbox"
+                  name="mailing-list"
+                  value="accept"
+                />
+                <span class="modal-icon-white"></span>
+                Oświadczam, iż akceptuję<a class="modal-link-terms" href="" title="Regulamin"><span>Regulamin<span></a>i<a class="modal-link-terms" href="">Politykę Prywatności.</a>
+              </label>
+              <div class="modal-container-btn">
+                <button class="modal-btn-submit" type="submit">
+                  Wyślij
+                </button>
+              </div>
+            </form>
+<!-- KONIEC MODALA -->
+
           </div>
         </div>
       </section>
