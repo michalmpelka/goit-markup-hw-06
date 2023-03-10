@@ -103,10 +103,10 @@
             <form action="">
               <ul>
                 <li class="modal-container">
-                  <label class="modal-contacts">Imię</label>
-                  <div class="field-name">
+                  <label class="modal-label">Imię</label>
+                  <div class="modal-name">
                     <input
-                      class="modal-type-field"
+                      class="modal-input"
                       type="text"
                       name="username"
                     />
@@ -116,10 +116,10 @@
                   </div>
                 </li>
                 <li class="modal-container">
-                  <label class="modal-contacts">Telefon</label>
-                  <div class="field-tel">
+                  <label class="modal-label">Telefon</label>
+                  <div class="modal-tel">
                     <input
-                      class="modal-type-field"
+                      class="modal-input"
                       type="tel"
                       name="phone-number"
                     />
@@ -129,16 +129,16 @@
                   </div>
                 </li>
                 <li class="modal-container">
-                  <label class="modal-contacts">Email</label>
-                  <div class="field-email">
-                    <input class="modal-type-field" type="email" name="email" />
+                  <label class="modal-label">Email</label>
+                  <div class="modal-email">
+                    <input class="modal-input" type="email" name="email" />
                     <svg class="modal-icon-email">
                       <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
                   </div>
                 </li>
               </ul>
-              <div class="modal-container-comment">
+              <div class="modal-comment-area">
                 <label class="modal-comment">Komentarz</label>
                 <textarea
                   class="modal-text"
@@ -150,11 +150,11 @@
               <label class="legal-checkbox" for="policy">
                 <input class="modal-checkbox" type="checkbox" name="policy" id="policy" value="accept"/>
                 <span class="checkmark"></span> 
-                <span class="modal-link-terms "> Oświadczam iż akceptuję <a href="" class="policy-link">Regulamin</a> i <a href="" class="policy-link"> Politykę Prywatności. </a>
+                <span class="modal-link-terms"> Oświadczam iż akceptuję <a href="" class="policy-link">Regulamin</a> i <a href="" class="policy-link"> Politykę Prywatności. </a>
                 </span>
             </label>
-              <div class="modal-container-btn">
-                <button class="modal-btn-submit" type="submit">
+              <div class="modal-submit">
+                <button class="modal-submit-button" type="submit">
                   Wyślij
                 </button>
               </div>
